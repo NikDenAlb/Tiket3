@@ -7,11 +7,11 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        String[] out = splitStrind("1234567890dshSDGERTG6575", 3);
+        String[] out = splitString("1234567890dshSDGERTG6575", 3);
         System.out.println(Arrays.toString(out));
     }
 
-    public static String[] splitStrind(String s, int n) {
+    public static String[] splitString(String s, int n) {
         String[] out;
 
         int steps = s.length() / n;
